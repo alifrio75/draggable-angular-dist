@@ -15,8 +15,10 @@
       </div>
     </div>
   </ng-template>
-  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Add Modal</button>
 
+  <div style="position: absolute;z-index: 9999;">
+  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Add Modal</button>
   <hr>
   <pre>{{closeResult}}</pre>
+  </div>
 </div>
